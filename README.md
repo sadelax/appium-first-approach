@@ -2,7 +2,6 @@
 1. clonar repo java client: https://github.com/appium/java-client
 2. abrir repo java client como proyecto en Android Studio.
 3. en Android Studio: create device (seleccionar un system image, por ejemplo tiramisu)
-   > 
    > importante incluir en el path (.zshrc) el android sdk:
    > ```
    > export ANDROID_HOME=~/Library/Android/sdk
