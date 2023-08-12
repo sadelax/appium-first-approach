@@ -11,10 +11,10 @@
    > export ANDROID_SDK_ROOT=~/Library/Android/sdk
    > export ANDROID_AVD_HOME=~/.android/avd
    > ```
-4. ``npm install appium``
-5. ``npx appium driver install uiautomator2``
-6. mantener el servidor appium levantado con ``npx appium``
-7. testear esta apk: https://github.com/saucelabs/my-demo-app-rn/releases (Assets Android-MyDemoAppRN.1.3.0.build-244.apk)
+4. instalar las dependencias de appium: ``npm install -g appium``
+5. instalar el controlador UIAutomator2: ``npx appium driver install uiautomator2``
+6. mantener el servidor appium levantado: ``npx appium``
+7. testear esta apk: https://github.com/saucelabs/my-demo-app-rn/releases (Android-MyDemoAppRN.1.3.0.build-244.apk)
 8. agregar las siguientes dependencias:
     ```
    <dependencies>
