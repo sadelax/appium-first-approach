@@ -44,7 +44,7 @@
         </dependency>
     </dependencies>
    ```
-9. Script SauceLabsTest:
+9. Script SauceLabsTest de este repo:
    > la capability "deviceName" se puede encontrar en la terminal con el comando ``adb devices``.
    > 
    > nótese que la capability "app" contiene la ruta de la apk a testear.
