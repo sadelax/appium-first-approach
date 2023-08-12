@@ -21,7 +21,7 @@ public class SauceLabsTest {
     @BeforeEach
     public void setup() throws MalformedURLException {
         capabilities = new DesiredCapabilities();
-        capabilities.setCapability("deviceName", "emulator-5554");
+        capabilities.setCapability("deviceName", "emulator-5555");
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("platformVersion", "13.0");
         capabilities.setCapability("appium:app", "/Users/n218688/Documents/KeepCoding/Appium keepcoding/Android-MyDemoAppRN.1.3.0.build-244.apk");
