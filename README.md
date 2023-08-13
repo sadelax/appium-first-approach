@@ -15,7 +15,7 @@
 5. instalar el controlador UIAutomator2: ``npx appium driver install uiautomator2``
 6. mantener el servidor appium levantado: ``npx appium``
 7. testamos esta apk!! -> https://github.com/saucelabs/my-demo-app-rn/releases (Android-MyDemoAppRN.1.3.0.build-244.apk)
-8. nuevo proyecto maven en una ide aparte (already done in this repo)
+8. nuevo proyecto maven en una IDE aparte (already done in this repo)
 9. agregar las siguientes dependencias (already done in this repo)
     ```
    <dependencies>
